@@ -27,3 +27,9 @@ Android drone control application that logs telemetry, video stream, recognized 
 ### [STCiOSXDataCollector](https://github.com/STCData/STCiOSXDataCollector)
 
 iOS/OSX application that logs detected text, human poses, window manager information and user actions from built in web browser, terminal emulator, camera, and any other external application
+
+
+
+<video width="320" height="240" controls>
+  <source src="https://stcdata.github.io/STCiOSXDataCollector/UITestVideos/DataCollectorUITests.DataCollectorUITests.testNameJohn.mp4" type="video/mp4">
+</video>
