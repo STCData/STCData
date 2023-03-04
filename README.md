@@ -2,7 +2,7 @@
 System for collecting data from mobile devices and machine learning on it
 
 
-```
+```mermaid
 flowchart LR
     id1(Start)-->id2(Stop)
     style id1 fill:#f9f,stroke:#333,stroke-width:4px
