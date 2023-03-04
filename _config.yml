@@ -1,3 +1,5 @@
 theme: jekyll-theme-tactile
 title: STCData
 description: System for collecting ML data from mobile devices
+plugins:
+  - jekyll-spaceship
