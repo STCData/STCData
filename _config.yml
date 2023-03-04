@@ -3,3 +3,4 @@ title: STCData
 description: System for collecting ML data from mobile devices
 plugins:
   - jekyll-spaceship
+  - jekyll-readme-index
