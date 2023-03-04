@@ -3,7 +3,6 @@ System for collecting data from mobile devices and machine learning on it
 
 
 ```mermaid!
-%%{init: {"flowchart": {"defaultRenderer": "dagre", "curve": "stepBefore"},  securityLevel: "loose"} }%%
 flowchart LR
   subgraph iOS & OSX
     c1(STCiOSXDataCollector)
