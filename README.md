@@ -53,6 +53,4 @@ iOS/OSX application that logs detected text, human poses, window manager informa
 
 
 
-<video width="320" height="240" controls>
-  <source src="https://stcdata.github.io/STCiOSXDataCollector/UITestVideos/DataCollectorUITests.DataCollectorUITests.testNameJohn.mp4" type="video/mp4">
-</video>
+![video cast](https://stcdata.github.io/STCiOSXDataCollector/UITestVideos/DataCollectorUITests.DataCollectorUITests.testNameJohn.gif)
