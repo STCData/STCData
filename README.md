@@ -3,8 +3,25 @@ System for collecting data from mobile devices and machine learning on it
 
 
 ```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "dagre", "curve": "stepBefore"},  securityLevel: "loose"} }%%
 flowchart LR
-    (STCiOSXDataCollector) & (STCX11DataCollector) & (STCX11DataCollector)-.->[(STCDataServer)]
+  subgraph iOS & OSX
+    c1(STCiOSXDataCollector)
+    click c1 "https://github.com/STCData/STCiOSXDataCollector"
+  end
+  subgraph Linux
+    c2(STCX11DataCollector)
+    click c2 "https://github.com/STCData/STCX11DataCollector"
+  end
+  subgraph Android 
+    c3(STCDroneDataCollector)
+    click c3 "https://github.com/STCData/STCDroneDataCollector"
+  end
+  subgraph Cloud
+    s[(STCDataServer)]
+  end
+    c1 & c2 & c3 -.-> s
+
 
 ```
 
