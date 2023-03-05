@@ -1,9 +1,23 @@
 # STCData
 System for collecting data from mobile devices and machine learning on it
 
+```mermaid
+pie title Pets adopted by volunteers
+  "Dogs" : 386
+  "Cats" : 85
+  "Rats" : 35
+```
+
+
+```mermaid!
+pie title Pets adopted by volunteers
+  "Dogs" : 386
+  "Cats" : 85
+  "Rats" : 35
+```
+
 
 ```mermaid
-
 flowchart LR
   subgraph iOS & OSX
     c1(STCiOSXDataCollector)
@@ -21,8 +35,6 @@ flowchart LR
     s[(STCDataServer)]
   end
     c1 & c2 & c3 -.-> s
-
-
 ```
 
 
