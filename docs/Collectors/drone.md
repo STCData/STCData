@@ -2,6 +2,7 @@
 layout: default
 title: Drone
 parent: Collectors
+nav_order: 20
 ---
 
 ### [STCDroneDataCollector](https://github.com/STCData/STCDroneDataCollector)
