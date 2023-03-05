@@ -1,6 +1,7 @@
 title: STCData
 description: System for collecting ML data from mobile devices
 theme: just-the-docs
+color_scheme: dark
 plugins:
   - jekyll-spaceship
 jekyll-spaceship:
