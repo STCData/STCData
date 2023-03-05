@@ -22,7 +22,7 @@ flowchart LR
     s[(STCDataServer)]
   end
   
-  c1 -.- [hand, body poses, recognized text in apps, recognized speech] -.-> s
+  c1 -.-|hand, body poses, recognized text in apps, recognized speech|-.-> s
     c2 & c3 -.-> s
 ```
 
