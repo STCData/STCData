@@ -6,7 +6,7 @@ plugins:
   - jekyll-spaceship
 jekyll-spaceship:
   mermaid-processor:
-    mode: pre-fetch
+    mode: default
     css:
       class: mermaid
     syntax:
