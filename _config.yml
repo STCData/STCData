@@ -12,7 +12,7 @@ jekyll-spaceship:
       code: 'mermaid'
       custom: ['@startmermaid', '@endmermaid']
     config:
-      theme: forest
+      theme: neutral
     src: https://mermaid.ink/svg/
 
 
