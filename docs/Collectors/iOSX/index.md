@@ -1,8 +1,9 @@
 ---
 layout: default
-title: iOS/OSX
+title: iOS
 parent: Collectors
 has_children: true
+nav_order: 1
 ---
 
 
