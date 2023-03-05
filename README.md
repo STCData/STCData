@@ -1,6 +1,13 @@
 # STCData
 System for collecting data from mobile devices and machine learning on it
 
+@startmermaid
+pie title Pets adopted by startmermaid
+  "Dogs" : 386
+  "Cats" : 85
+  "Rats" : 35
+@endmermaid
+
 ```mermaid
 pie title Pets adopted by volunteers
   "Dogs" : 386
@@ -65,4 +72,5 @@ iOS/OSX application that logs detected text, human poses, window manager informa
 
 
 
+![video cast mp3](https://stcdata.github.io/STCiOSXDataCollector/UITestVideos/DataCollectorUITests.DataCollectorUITests.testNameJohn.mp4)
 ![video cast](https://stcdata.github.io/STCiOSXDataCollector/UITestVideos/DataCollectorUITests.DataCollectorUITests.testNameJohn.gif)
