@@ -8,7 +8,7 @@ System for collecting data from mobile devices and machine learning on it
 
 
 ```mermaid
-flowchart LR
+flowchart BT
   subgraph iOS & OSX
     c1(STCiOSXDataCollector)
   end
@@ -22,8 +22,9 @@ flowchart LR
     s[(STCDataServer)]
   end
   
-  c1 -.- hand, body poses, recognized text in apps, recognized speech -.-> s
-    c2 & c3 -.-> s
+  c1-. hand, body poses\n recognized text in apps\nrecognized speech\screencast .-> s
+  c3-. drone telemetry\n location\ndrone camera stream\nrecognized objects\nuser input .-> s
+  c2-. screencast\nrecognized text\nuser input .-> s
 ```
 
 
