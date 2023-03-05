@@ -14,3 +14,18 @@ jekyll-spaceship:
     config:
       theme: default
     src: https://mermaid.ink/svg/
+
+
+nav_external_links:
+  - title: STCiOSXDataCollector
+    url: https://github.com/STCData/STCiOSXDataCollector
+    hide_icon: false 
+  - title: STCDroneDataCollector
+    url: https://github.com/STCData/STCDroneDataCollector
+    hide_icon: false 
+  - title: STCDataServer
+    url: https://github.com/STCData/STCDataServer
+    hide_icon: false   
+  - title: STCX11DataCollector
+    url: https://github.com/STCData/STCX11DataCollector
+    hide_icon: false 
