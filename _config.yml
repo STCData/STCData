@@ -5,7 +5,7 @@ plugins:
   - jekyll-spaceship
 jekyll-spaceship:
   mermaid-processor:
-    mode: default  # mode value 'pre-fetch' for fetching image at building stage
+    mode: pre-fetch
     css:
       class: mermaid
     syntax:
