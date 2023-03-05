@@ -6,4 +6,4 @@ Browser, camera, system wide screencast and vision/speech/user actions models ru
 
 ## Code sample
 
-An example of what one software engineer can develop singlehandedly in one month. Looking for a job, [hire me](standardtemplateconstruct2022+joboffer@gmail.com))
+An example of what one software engineer can develop singlehandedly in one month. Looking for a job, [hire me](standardtemplateconstruct2022+joboffer@gmail.com)
