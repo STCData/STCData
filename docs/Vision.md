@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Mission
-nav_order: -1
+title: Vision
+nav_order: 1000
 has_children: false
 ---
 
