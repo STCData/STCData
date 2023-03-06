@@ -47,7 +47,7 @@ flowchart BT
     Clients -.->|X| Cloud
     c5 <-.-> c6
     c2 <-.-> c6
-    c4 -.-> c5
-    c1 -.-> c2
-    c3 -.-> c2
+    iPhone2 -.-> iPad1
+    iPhone1 -.-> MacBook1
+    Android1 -.-> MacBook1
 ```
