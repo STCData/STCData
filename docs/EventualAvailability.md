@@ -1,6 +1,7 @@
 ```mermaid
-flowchart TB
+flowchart BT
  subgraph Clients
+  direction BT
   subgraph iPhone1
     c1(STCiOSXDataCollector)
   end
@@ -11,14 +12,18 @@ flowchart TB
   
   subgraph iPad1
     c5(STCiOSXDataCollector)
+    db5[[<i>temporary\ndata storage</i>]]
   end
   
   subgraph MacBook1
     c2(STCiOSXDataCollector)
+    db2[[<i>temporary\ndata storage</i>]]
   end
   
   subgraph Linux2
+    direction LR
     c6(STCX11DataCollector)
+    db6[[<i>temporary\ndata storage</i>]]
   end
   
   subgraph Android1
