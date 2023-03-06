@@ -9,18 +9,32 @@ System for collecting data from mobile devices and machine learning on it
 
 ```mermaid
 flowchart BT
-  subgraph iOS & OSX
-    c1(STCiOSXDataCollector)
+  subgraph STCiOSXDataCollector
+    direction TB
+    c1(ML Recognizers)
+    br>Browser]
+    cam1>Camera]
+    scr1>Screencast]
+    br-->|tab info\nhtml\nrendered html\nuser actions|c1
+    cam1-->|image|c1
+    scr1-->|current frame\nApp info|c1
   end
   subgraph Linux
+    direction TB
     c2(STCX11DataCollector)
+    scr2>Screencast]
+    scr2-->c2
   end
   subgraph Android 
     c3(STCDroneDataCollector)
   end
   subgraph Cloud
-    s[(STCDataServer)]
+    sActual[(STCDataServer)]
   end
+  
+  s{{<i>schemaless\nAvro based\nREST/Websockets\nProtocol</i>}}
+  
+  s---|domain/schema agnostic\nrealtime data for ML|sActual
   
   c1-. hand, body poses\n recognized text in apps\nrecognized speech\screencast .-> s
   c3-. drone telemetry\n location\ndrone camera stream\nrecognized objects\nuser input .-> s
