@@ -37,14 +37,20 @@ flowchart BT
 
  end
  subgraph Cloud
+  subgraph Eventually Available
    sData[(STCDataServer)]
+  end
+  subgraph Always Available
+   broker>Peer\nDiscovery\nBroker]
+  end
  end
  
  classDef realm fill:#333,stroke:#323,stroke-width:1px,color:#1ff,stroke-dasharray: 5 5
 
  class Cloud,Clients realm
 
-    Clients -.->|X| Cloud
+    Clients -.->|X| sData
+    Clients <-.-> broker
     c5 <-.-> c6
     c2 <-.-> c6
     iPhone2 -.-> iPad1
