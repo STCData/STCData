@@ -1,4 +1,6 @@
 ```mermaid
+
+
 flowchart BT
  subgraph Clients
   direction BT
@@ -30,10 +32,17 @@ flowchart BT
     c3(STCDroneDataCollector)
   end
   
+  classDef db fill:#555,stroke:#323,stroke-width:2px,color:#bbb,stroke-dasharray: 5 5
+  class db5,db2,db6 db
+
  end
-  subgraph Cloud
-    sData[(STCDataServer)]
-  end
+ subgraph Cloud
+   sData[(STCDataServer)]
+ end
+ 
+ classDef realm fill:#333,stroke:#323,stroke-width:1px,color:#1ff,stroke-dasharray: 5 5
+
+ class Cloud,Clients realm
 
     Clients -.->|X| Cloud
     c5 <-.-> c6
