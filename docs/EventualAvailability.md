@@ -2,6 +2,7 @@
 layout: default
 title: Eventual Availability
 nav_order: 20
+parent: Features
 has_children: false
 ---
 
