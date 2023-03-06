@@ -1,3 +1,11 @@
+---
+layout: default
+title: Mission
+nav_order: -1
+has_children: false
+---
+
+
 Standard Template Construct's mission is providing a software tools for training Artificial Intelligence for assisting following human tasks:
 1. Book Reading
 2. Operating desktop computer
