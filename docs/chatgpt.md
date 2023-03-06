@@ -22,12 +22,10 @@ hands as an array with objects with format: {x:, y:} on js event "received label
     user prompt: "place a button to picture in picture, on its bottom, when user clicks it - save all text"
     do not output any explanations!
 
-
     Write a code in JavaScript, that’s being executed in environment where following events are being emitted:
-      “onScreenData” with object { “screenData”: pixelBuffer, “textRecognizer”: { [ {x, y, width, height, “recognized text in box1”}, {x, y, width, height, “recognized text in box2”}… ] }. Note that the only way to receive a screen data is to subscribe to this event
-    Following function is available:
+      “onScreenData” on document with object { screenData: pixelBuffer, textRecognizer: {boxes: [ {x, y, width, height, “recognized text in box1”}, {x, y, width, height, “recognized text in box2” }…]}}. Note that the only way to receive a screen data is to subscribe to this event
+    Following functions are already attached to document object:
       submitLabel(label: String, callback: (error)->void)
-    Browser window where this JS code is run is placed directly on top of the screen, and resolution of browser and screen are matched.
     User prompt: “place a half transparent button over each recognized box of text. When user click on it, show a dropdown with options: good, bad, average. When label is submitted show alert”
     Output separately minified html of div#content, css and js like that
     😳HTML
@@ -36,11 +34,32 @@ hands as an array with objects with format: {x:, y:} on js event "received label
     ```
     🧐JS
     ```
-    (JS without any comments)
+    (JS without any comments, prettified)
     ```
     😎CSS
     ```
     (Minified css)
     ```
 
+    Do not output any explanations!
+
+
+
+
+
+    modify previous response according to user prompt. output only modified lines in DIFF format with line numbers, inside of 
+    😳HTML
+    ```
+    html diff goes here
+    ```
+    🧐JS
+    ```
+    js diff goes here
+    ```
+    😎CSS
+    ```
+    css diff goes here
+    ```
+    as needed.
+    user prompt is: "make buttons blue, barely visible, with corner radius 0.4"
     Do not output any explanations!
