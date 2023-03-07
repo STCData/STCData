@@ -25,7 +25,17 @@ Saves either to local Avro file or to Mongo(kitten) timeseries table
 
 ## CSV provider
 
-## Queued Pipeline runner
+
+## Inference 
+
+On generic CreateML model stored on server/select apple vision frameworks on Apple platforms
+On external PyTorch/huggingface models on Linux/MacOS
+
+### Post
+
+### WebSocket
+
+### Queued Pipeline runner
 
 Using mongoqueues over mongokitten
 
